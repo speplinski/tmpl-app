@@ -6,7 +6,12 @@ class AppConfig:
                 'image_directory': 'assets/sequences/P1100142/',
                 'overlay_path': 'assets/overlays/P1100142.png',
                 'video_path': 'assets/movies/P1100142.mp4'
-            }
+            },
+            {
+                'image_directory': 'assets/sequences/P1080087/',
+                'overlay_path': 'assets/overlays/P1080087.png',
+                'video_path': 'assets/movies/P1080087.mp4'
+            },
         ]
         self.current_sequence_index = 0
 
