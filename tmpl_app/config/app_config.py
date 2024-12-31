@@ -3,9 +3,9 @@ class AppConfig:
     def __init__(self):
         self.sequences = [
             {
-                'image_directory': 'results/sequences/P1100142/',
-                'overlay_path': 'results/overlays/1100142.png',
-                'video_path': 'results/movies/v1.mp4'
+                'image_directory': 'assets/sequences/P1100142/',
+                'overlay_path': 'assets/overlays/P1100142.png',
+                'video_path': 'assets/movies/P1100142.mp4'
             }
         ]
         self.current_sequence_index = 0
@@ -50,7 +50,7 @@ class AppConfig:
 
         # Video starts at frame 200 OR after 15 seconds
         self.video_trigger_frame = 240  # Frame to start video
-        self.video_trigger_time = 200.0  # Time (seconds) to start video
+        self.video_trigger_time = 15.0  # Time (seconds) to start video
         self.fade_duration = 2.0
 
     def get_current_sequence(self):
